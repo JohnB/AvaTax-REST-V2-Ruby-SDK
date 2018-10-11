@@ -2,6 +2,10 @@ The AvaTax Ruby Gem
 ====================
 A Ruby wrapper for the AvaTax REST V2 APIs
 
+Reason for HotelTonight Fork
+----------------------------
+See [this 9/5/2018 commit](https://github.com/hoteltonight/AvaTax-REST-V2-Ruby-SDK/commit/2e963760bc2cafddfeca40a44fa2deaf1d008c29) which just relaxes gem dependency versions so we don't have to upgrade a lot of other gems just to use Avalara. [Comparing their upstream changes since we forked it](https://github.com/avadev/AvaTax-REST-V2-Ruby-SDK/compare/a7f092981b90c1feb034fc1ed96a22c6338fd6d1..master) mainly shows documentation changes, so we (so far, as of 10/10/2018) are not missing anything.
+
 Installation
 ------------
 	gem install avatax
